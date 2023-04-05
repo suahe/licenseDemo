@@ -1,0 +1,10 @@
+server:
+  port: 8000
+  servlet:
+    session:
+      timeout: 300  #session超时时间
+
+license:
+  lic-store-path: D:/data/license_cc1/license.lic
+  public-store-path: D:/data/publicCerts.keystore
+  subject: license_cc

@@ -1,0 +1,19 @@
+server:
+  port: 7000
+  servlet:
+    session:
+      timeout: 300  #session³¬Ê±Ê±¼ä
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+license:
+  lic-store-path: /home/license/
+  public-store-path: /home/license/
+  private-store-path: /home/license/privateKeys.keystore
+  private-alias: SYSHLANG
+  key-pass: cqt@1234
+  store-pass: cqt@1234
+  lic-dowload-url: http://172.16.252.130:7000/license/download/lic/
